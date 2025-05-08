@@ -45,7 +45,7 @@ for A in range(2):
         for C in range(2):
             for D in range(2):
                 out = 0
-                if ((((not A) and B) or C) and ((not A) or D)):
+                if ((((not A) and B) or C) and not(A or D)):
                     out += 1
                 print(f'{A:>2} | {B:>2} | {C:>2} | {D:>2} | {out:>2}')
 
