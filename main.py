@@ -35,7 +35,7 @@ for A in range(2):
 # Expressão lógica: ((¬A ⋅ B) + C) ⋅ (¬A + D)
 # Combina duas condições: 
 # 1. "(¬A ⋅ B) + C" (verdadeiro se ¬A e B forem verdadeiros ou C for verdadeiro).
-# 2. "(¬A + D)" (verdadeiro se ¬A ou D forem verdadeiros).
+# 2. "¬(A + D)" (verdadeiro se ¬A ou D forem verdadeiros).
 # A tabela verdade mostra a interação entre as variáveis A, B, C e D.
 print("\nEXERCICIO 3")
 print("A | B | C | D | ((¬A ⋅ B) + C) ⋅ (¬A + D)")
