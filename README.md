@@ -20,7 +20,7 @@ baseada em problemas práticos como controle de acesso, sistemas de emergência 
 - **Saída**: Tabela verdade demonstrando o comportamento da porta XOR.
 
 ### Exercício 3: Condições Complexas com Quatro Variáveis
-- **Expressão lógica**: ((¬A ⋅ B) + C) ⋅ (¬A + D)
+- **Expressão lógica**: ((¬A ⋅ B) + C) ⋅ ¬(A + D)
 - **Descrição**: Combina duas condições:
   1. (¬A ⋅ B) + C (verdadeiro se ¬A e B forem verdadeiros ou C for verdadeiro).
   2. (¬A + D) (verdadeiro se ¬A ou D forem verdadeiros).
