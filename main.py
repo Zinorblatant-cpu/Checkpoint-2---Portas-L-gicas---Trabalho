@@ -32,20 +32,20 @@ for A in range(2):
 
 
 # EXERCÍCIO 3
-# Expressão lógica: ((¬A ⋅ B) + C) ⋅ (¬A + D)
+# Expressão lógica: ((¬A ⋅ B) ⋅ C) ⋅ (¬A + D)
 # Combina duas condições: 
-# 1. "(¬A ⋅ B) + C" (verdadeiro se ¬A e B forem verdadeiros ou C for verdadeiro).
+# 1. "(¬A ⋅ B) ⋅ C" (verdadeiro se ¬A e B forem verdadeiros ou C for verdadeiro).
 # 2. "¬(A + D)" (verdadeiro se ¬A ou D forem verdadeiros).
 # A tabela verdade mostra a interação entre as variáveis A, B, C e D.
 print("\nEXERCICIO 3")
-print("A | B | C | D | ((¬A ⋅ B) + C) ⋅ (¬A + D)")
+print("A | B | C | D | ((¬A ⋅ B) ⋅ C) ⋅ (¬A + D)")
 print("------------------------------------------")
 for A in range(2):
     for B in range(2):
         for C in range(2):
             for D in range(2):
                 out = 0
-                if ((((not A) and B) or C) and not(A or D)):
+                if ((((not A) and B) and C) and not(A or D)):
                     out += 1
                 print(f'{A:>2} | {B:>2} | {C:>2} | {D:>2} | {out:>2}')
 
